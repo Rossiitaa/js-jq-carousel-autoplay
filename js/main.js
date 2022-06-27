@@ -67,3 +67,7 @@ imgList[activeImg].classList.add('active');
 });
 
 
+/* autoplay */
+setInterval(function() {
+    buttonNext.click();
+}, 3000);
